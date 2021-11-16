@@ -41,7 +41,7 @@ include 'config.php';
 				<li class="propClone"><a style="color: red;" href="<?php echo base_url ?>/buy">Buy/Hire</a></li>
 				<li class="propClone"><a style="color: red;" href="<?php echo base_url ?>/sell">Sell</a></li>
 				<li class="propClone"><a href="checkout.html">About</a></li>
-				<li class="propClone"><a href="<?php echo base_url ?>/contact">Contact</a></li>
+				<li class="propClone"><a href="contact/index.php">Contact</a></li>
 			</ul>
 		</div>
 	</div>
