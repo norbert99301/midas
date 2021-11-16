@@ -37,9 +37,9 @@ include 'config.php';
 		</div>
 		<div id="navbar-collapse-02" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="propClone"><a href="<?php echo base_url ?>">Home</a></li>
-				<li class="propClone"><a style="color: red;" href="<?php echo base_url ?>/buy">Buy/Hire</a></li>
-				<li class="propClone"><a style="color: red;" href="<?php echo base_url ?>/sell">Sell</a></li>
+				<li class="propClone"><a href="">Home</a></li>
+				<li class="propClone"><a style="color: red;" href="buy">Buy/Hire</a></li>
+				<li class="propClone"><a style="color: red;" href="/sell">Sell</a></li>
 				<li class="propClone"><a href="checkout.html">About</a></li>
 				<li class="propClone"><a href="contact/index.php">Contact</a></li>
 			</ul>
