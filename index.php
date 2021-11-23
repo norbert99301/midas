@@ -92,49 +92,7 @@ include 'config.php';
 			</div>
 		</div>
 		
-	 <?php 
-                            $select = mysqli_query($con, "SELECT * FROM all_items ORDER BY id desc LIMIT 6");
-                            while ($data = mysqli_fetch_assoc($select)) {
-                           
-                           
-                            ?>
-	<div class="row">
-		<div class="col-md-4">
-			<div class="productbox">
-				<div class="fadeshop">
-					<div class="captionshop text-center" style="display: none;">
-						<h3><?php  echo $data["category"]        ?></h3>
-						<p>
-							 <?php  echo $data["name"]        ?></
-						</p>
-						<p>
-							<!-- <a href="#" class="learn-more detailslearn"><i class="fa fa-shopping-cart"></i> Purchase</a> -->
-							<!-- <a href="#" class="learn-more detailslearn"><i class="fa fa-link"></i> Details</a> -->
-							<a href="buy/purchase/?buy=<?php  echo $data["id"] ?>" class="learn-more detailslearn"><i class="fa fa-link"></i>
-														Details
-													</a>
-						</p>
-					</div>
-					<span class="maxproduct"><img src="admin/createpost/uploadd/<?php echo $data['image']; ?>" alt=""></span>
-				</div>
-				<div class="product-details">
-					<a href="#">
-					<h1><?php  echo $data["name"]        ?></h1>
-					</a>
-					<span class="price">
-					<span class="edd_price"><?php  echo $data["price"]        ?></span>
-					</span>
-				</div>
-			</div>
-		</div>
-		<?php 
-
-	}?>
 	
-		
-	</div>
-</div>
-</div>
 </section>
 
 
